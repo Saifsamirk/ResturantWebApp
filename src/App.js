@@ -4,6 +4,7 @@ import { Navbar, NavbarBrand } from "reactstrap";
 import "./App.css";
 import Menu from "./components/menuComponent";
 import { DISHES } from "./shared/dishes";
+import DishDetail from "./components/dishDetailsComponent";
 
 class App extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Navbar dark color="primary">
+        <Navbar dark color="dark">
           <div className="container">
             <NavbarBrand href="/">Elite Restaurant</NavbarBrand>
           </div>
